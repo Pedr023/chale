@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    font-family: helvetica, "trebuchet MS" sans-serif;
+    background: #e0ddce;
+    
+}
+
+#pai{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+
+#topo{
+    background:  url(imagens/topo-imagem-principal.png) no-repeat ;
+    height:250px;
+    width: 100%;
+    min-width: 740px;
+    max-width: 1180px;
+    position: relative;
+    margin: 15px;
+    z-index: 2;
+}
+
+#logo{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    display: inline;
+}
+
+#area_esquerda{
+    background:  url(imagens/topo-imagem-lateral.png);
+    height: 15.6em;
+    width: 28em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu{
+    border: black 1x solid;
+    width: 22.4em;
+    height: 15.5em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#area_esquerda input{
+    background: #dfd295 ;
+    border: none;
+    height: 3em;
+    width: 18em;
+}
+
+#reserva{
+    background-color: #c2af4e;
+    height:2em;
+    width: 6em;
+    border: none;
+    color: #fff;
+    position: relative;
+    left: 10px;
+}
+
+#form{
+   margin: 10px 0;
+   border-bottom: 1px solid  #c2af4e;
+   border-top:  1px solid  #c2af4e;;
+   width: 21em;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    padding: 1px;
+    line-height: 2em;
+    color: #79691b;
+    border: #79691b px solid;
+    font-family: helvetica, "trebuchet MS" sans-serif;
+}
+
+li a{
+    color: #79691b;
+    text-decoration: none;
+}
+
+ ul li a:hover{
+    color: #3a320c;
+    background: #cec189;
+    padding-left: 0;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+button :hover{
+    color: #c2af4e;
+}
+
+#dep{
+ width: 230px;
+ position: absolute;
+ right: 10px;
+ top: 60px;
+}
+
+
+/*conteudo*/
+
+#conteudo{
+    margin: 0 auto;
+    background: #c2af4e;
+    width: 100%;
+    height: 500px;
+    min-width: 740px;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#descricao{
+    width: 50%;
+    background-color: #ebe2bd;
+    height: 100%;
+    padding: 1em;
+    min-width: 27em;
+}
+
+#descricao h2{
+    color: #665916;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+#descricao p{
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3a320c;
+}
+
+#links{
+    width: 50%;
+    background-color: #cfc7a2;
+    height: 100%;
+    padding: 1em;
+}
+
+#links ul{
+    border: 0px solid #3a320c;
+    width: 35em;
+    height: 8em;
+    margin: 1em;
+    display: block;
+}
+
+#links img{
+    width: 36%;
+    float: left;
+    margin-right: 5px;
+}
+
+#links p{
+    line-height: 1em;
+    color: #3a320c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+
+h3{
+    color: #645401;
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    background: url(imagens/ornamento.png) no-repeat right;
+}
+
+#links ul:hover{
+    background-color: #c5b982;
+}
